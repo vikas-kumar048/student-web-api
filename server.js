@@ -14,8 +14,8 @@ app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Methods", "PUT, POST, GET, DELETE, OPTIONS");
   next();
 });
-const url =
-  "mongodb+srv://dbVikasjangid:dbvikasprolific04@mycluster1.3pgyt.mongodb.net?retryWrites=true&w=majority";
+// please provide your the database link here
+const url = "Your url for the database";
 const connectionParams = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
